@@ -107,7 +107,7 @@ input {
     grid-column: 2/3;
     display: grid;
     grid-template-columns: 3fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: .7fr 1fr;
 }
 .projects {
     grid-row: 1/3;
@@ -179,4 +179,10 @@ h3 {
     display: flex;
     flex-direction: column;
     justify-content: center;
+  }
+  .card > .greeting {
+    margin-bottom: .8rem;
+  }
+  #last {
+    margin-bottom: 0;
   }
