@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #0E0E0E;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    height: 100%;
+    padding: 0 1rem;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 5fr;
+}
+
+.sidebar {
+    background-color: #1992D4;
+    grid-column: 1 / 2;
+    grid-row: 1/3;
+}
+
+.header {
+    background-color: #FFFFFF;
+    grid-column: 2/3;
+}
+
+.content {
+    background-color: #E2E8F0;
+    grid-column: 2/3;
+}
