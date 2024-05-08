@@ -130,6 +130,7 @@ h3 {
     display: flex;
     flex-direction: column;
     border-radius: .5rem;
+    box-shadow: 3px 3px 1px #dfdfdf;
 }
 .border-gradient {
     background: rgb(240,180,41);
